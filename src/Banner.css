@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #87CEFA; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner-box {
+    background-color: #B0E0E6; /* Sky blue color */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 700px;
+  }
+  
+  .banner-description {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #333333;
+  }
+  
+  .banner-link {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #ff5722;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner-link:hover {
+    background-color: #e64a19;
+  }
+  
+  .timer-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timer-svg {
+    margin-bottom: 10px;
+  }
+  
+  .timer-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
